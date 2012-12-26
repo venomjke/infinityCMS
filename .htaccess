@@ -1,0 +1,19 @@
+#################
+## php settings
+#################
+
+php_flag	register_globals	0
+php_flag	magic_quotes_gpc	0
+
+############
+## routing
+############
+
+RewriteEngine	On
+
+#########################
+## performance settings
+#########################
+
+## gzip plaintext being sent to the user
+AddOutputFilterByType	DEFLATE		text/html text/plain application/javascript application/x-javascript text/css

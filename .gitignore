@@ -1,0 +1,11 @@
+*.*~
+!.gitignore
+!index.html
+
+#Commonly modified files
+core/data/*
+pages/*
+snippets/*
+layouts/*
+*.sublime-workspace
+*.sublime-project

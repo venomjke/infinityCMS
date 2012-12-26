@@ -4,8 +4,8 @@
 
 #Commonly modified files
 core/data/*
-pages/*
-snippets/*
-layouts/*
+pages/*.php
+snippets/*.php
+layouts/*.php
 *.sublime-workspace
 *.sublime-project
